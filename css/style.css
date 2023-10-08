@@ -1,0 +1,315 @@
+/* start navbar  */
+.nav-link{
+margin-right: 33px;
+
+font-size: 19px;
+}
+.navbar-nav{
+   margin-left: 570px;
+
+}
+.nav-img{
+    margin-left: 72px;
+}
+
+/* end navbar  */
+/*===========================================================*/
+/* start header  */
+
+.carousel-caption a  {
+        
+       
+    padding: 11px 43px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.carousel-caption h1  {
+        
+    margin-bottom: 30px; 
+    font-weight: 800;
+    font-size: 44px;
+       
+}
+.carousel-caption h2 {
+    font-size: 25px;
+    margin-bottom: 24px;
+}
+.icon{
+   color: #22b3c1;
+    /* font-size: 3px; */
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    text-align: center;
+    line-height: 58px;
+    border: 1px solid #22b3c1;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    padding: 17px 16px;
+}
+h4 span{
+    font-size: 15px;
+    color: #afafaf;
+    font-weight: 400
+}
+h4 {
+    text-align: left;
+    font-size: 20px;
+    color: #22b3c1;
+    font-weight: 700;
+    line-height: 28px;
+}
+.main-button a {
+    font-size: 14px;
+    color: #fff;
+    background-color: hsl(185, 70%, 45%);
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    margin-bottom: -51px;
+    margin-top: 10px;
+    display: block;
+  
+}
+.header-explore {
+    padding: 31px 47px;
+    border-radius: 90px;
+}
+
+.carousel-indicators li{
+    width: 165px;
+    height: 3px;
+    margin-right: 42px;
+    margin-left: 3px;
+    text-indent: -996px;
+    margin-bottom: 30px;
+}
+
+/* end header  */
+/*====================================================*/
+/* start sec3 of card  */
+.section-heading h2 ,.card-text h4{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #2a2a2a;
+}
+.section-heading p ,.card-text span ,.card-body p{
+    font-size: 15px;
+    line-height: 30px;
+    color: #afafaf;
+    
+    font-weight: 600;
+}
+.btn-card{
+    font-size: 14px;
+    color: #fff;
+    background-color: hsl(185, 70%, 45%);
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    margin-top: -85px;
+    float: right;
+}
+.info{
+    margin-left: -39px;
+
+}
+.info li{
+    display: inline-block;
+    width: 32%;
+    color: #afafaf;
+    font-size: 17px;
+    margin-right: 2px;
+}
+.text-button{
+    font-size: 14px;
+    color: #22b3c1;
+    font-weight: 500;
+    transition: all .3s;
+
+}
+.card-img{
+    border-radius: 28px;
+    width: 89%;
+    margin: auto;
+    display: block;
+    margin-top: 18px;
+}
+.card{
+    border: none;
+    padding: 0px 25px;
+    margin-left: -11px
+}
+.page-numbers{
+    margin-left: 202px;
+}
+.page-numbers li{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #22b3c1;
+    line-height: 44px;
+   
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50%;
+    transition: all .3s;
+    margin-left: 12px;
+    transition: all .3s;
+}
+.page-numbers li:hover{
+    color: #fff;
+    background-color: #a80606;
+}
+iframe{
+    border: 0;
+    border-radius: 23px;
+    width: 116%;
+    margin-left: -29px;
+    margin-top: 120px;
+}
+/* end sec3 of card  */
+
+/* start sec4 of img travel  */
+
+
+.travel {
+    
+    background-image: url(../img/cta-bg.jpg);
+    background-size: cover;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.travel h2{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 29px;
+    text-transform: uppercase;
+    margin-top: -13px;
+    margin-left: -52px;
+}
+.travel h4{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 84px;
+}
+.travel-text{
+
+
+    margin-top: 76px;
+    margin-left: -67px;
+}
+.travel a{
+   font-size: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    margin-top: 90px;
+    margin-right: -59px;
+}
+/* end sec4 of img travel  */
+/*=================================================*/
+
+ /* the media screen */
+ @media only screen and (max-width :768px) {
+    /* navbar  */
+    .nav-img{        
+        margin-left: 0px;
+    }
+    /* header  */
+    .header-img{
+
+        height: 500px;
+    }
+    .carousel-caption h1 {
+        font-size: 31px;
+        margin-bottom: 52px;
+    }
+    .carousel-caption a {
+        padding: 4px 15px;
+        font-size: 11px;
+        margin-top: -25px;
+        margin-bottom: 49px;
+    }
+    .carousel-caption h2 {
+        font-size: 16px;
+        margin-bottom: 25px;
+        
+    }
+    /* cord  */
+    .header-explore {
+        padding: 34px 31px;
+        border-radius: 25px;
+        width: 132%;
+        height: 209px;
+        margin-left: -58px;
+        margin-bottom: 9px;
+    }
+    .main-button a {
+        margin-top: 10px;
+        padding: 16px 28px;
+    }
+    .page-numbers {
+        margin-left: 55px;
+    }
+    /* iframe  */
+    iframe{
+        border: 0;
+        border-radius: 23px;
+        margin: auto;
+        display: block;
+        margin-top: 41px;
+        width: 90%;
+    }
+    /* sec travel  */
+    .travel h4{
+        font-size: 13px;
+        margin-left: 91px;
+        margin-top: -24px
+    }
+    .travel h2{
+        font-size: 17px;
+        margin-left: -150px;
+    }
+    .travel a{
+        font-size: 5px;
+        float: right;
+        margin-right: 27px;
+        margin-top: -55px;
+    } 
+    .travel {
+        height: 150px;
+    }   
+
+ }
+@media only screen and (min-width :768px){
+    .card-section{
+        margin-left: 69px;
+    }
+        
+}  
